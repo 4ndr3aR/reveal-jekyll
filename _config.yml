@@ -1,11 +1,16 @@
 timezone:    Europe/Berlin
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-baseurl:     ""
+baseurl:     "http://deeplearning.ge.imati.cnr.it/genova-5G/presentations/dss-13"
+#baseurl:     ""
 highlighter: ""
 markdown:    kramdown
 lsi:         false
 permalink:   "/:title"
+
+github:
+  url:     "http://deeplearning.ge.imati.cnr.it/genova-5G/presentations/dss-13"
+
 
 kramdown:
   ## for german: "sbquo,lsquo,bdquo,ldquo"
@@ -17,9 +22,9 @@ kramdown:
 #  - jemoji
 
 ## personalize your slide show
-title:       reveal-jekyll
-author:      Thomas Friese
-description: Reveal.js for Jekyll with Solarized Color theme
+title:       Pothole Detection
+author:      Andrea Ranieri
+description: DataScienceSeed 13 - Cracks and Potholes - Non tutte le Reti Neurali vengono col buco
 
 sass:
   style:     :compressed
