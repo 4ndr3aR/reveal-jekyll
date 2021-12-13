@@ -1,0 +1,78 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "solarized/solarized.scss";
+
+
+.pleaseletmeclickonthislink
+{
+ /* padding:70px 70px 0 0;*/
+ /* margin: 5px !important; */
+ /*margin-top: 120px;*/
+ pointer-events: auto;
+}
+
+.pleaseletmeclickonthislink5px
+{
+ /* padding:70px 70px 0 0;*/
+ margin-top: 5px !important;
+ /*margin-top: 120px;*/
+ pointer-events: auto;
+}
+.pleaseletmeclickonthislink6px
+{
+ /* padding:70px 70px 0 0;*/
+ margin-top: 6px !important;
+ /*margin-top: 120px;*/
+ pointer-events: auto;
+}
+.pleaseletmeclickonthislink7px
+{
+ /* padding:70px 70px 0 0;*/
+ margin-top: 7px !important;
+ /*margin-top: 120px;*/
+ pointer-events: auto;
+}
+.pleaseletmeclickonthislink8px
+{
+ /* padding:70px 70px 0 0;*/
+ margin-top: 8px !important;
+ /*margin-top: 120px;*/
+ pointer-events: auto;
+}
+.pleaseletmeclickonthislink9px
+{
+ /* padding:70px 70px 0 0;*/
+ margin-top: 9px !important;
+ /*margin-top: 120px;*/
+ pointer-events: auto;
+}
+
+
+.slideimage
+{
+ /* pointer-events: auto; */
+    border: 0;
+    background: white;
+    box-shadow: None;
+    border-radius: 2%;
+    -webkit-filter: drop-shadow(0.5vw 0.5vw 0.5vw #ddd8);
+    filter: drop-shadow(0.5vw 0.5vw 0.5vw #ddd8);
+}
+
+.resultsimage
+{
+    text-align: unset !important;
+    position: inherit !important;
+    left: 75%;
+    top: 50%;
+    border: 0;
+    background: red;
+    box-shadow: None;
+    border-radius: 2%;
+    -webkit-filter: drop-shadow(0.5vw 0.5vw 0.5vw #ddd8);
+    filter: drop-shadow(0.5vw 0.5vw 0.5vw #ddd8);
+}
+
