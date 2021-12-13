@@ -2,7 +2,7 @@
 
 ### Pothole detection slides made with Jekyll and React.js
 
-![Pothole Gallery](https://raw.githubusercontent.com/4ndr3aR/reveal-jekyll/assets/pics/gallery-2.jpg)
+![Pothole Gallery](https://raw.githubusercontent.com/4ndr3aR/reveal-jekyll/pothole-detection/assets/pics/gallery-2.jpg)
 
 <!--
 
