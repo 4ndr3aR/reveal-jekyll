@@ -1,3 +1,11 @@
+# Pothole detection
+
+### Pothole detection slides made with Jekyll and React.js
+
+![Pothole Gallery](https://raw.githubusercontent.com/4ndr3aR/reveal-jekyll/assets/pics/gallery-2.jpg)
+
+<!--
+
 # reveal-jekyll
 
 Transforms Markdown files into presentation slides using [reveal.js](#revealjs) and [Jekyll](#jekyll). The theme is based on [Solarized Colors](https://github.com/altercation/solarized) (by Ethan Schoonover) containing a light and a dark theme.  
@@ -72,7 +80,7 @@ gem install bundler \
 bundle install
 ```
 
----
+- - -
 
 ## Write Your Slides
 
@@ -92,10 +100,10 @@ Name the files in numbered order or dated following a pattern like `YEAR-MONTH-D
 Write the slide's header in [Front-matter](https://jekyllrb.com/docs/frontmatter/) and put the Markdown formatted content below. In the header you need at least the `layout: slide` attribute:
 
 ```markdown
----
+- - - 
 layout: slide
 title:
----
+- - - 
 
 MARKDOWN_FOMATTED_SLIDE_CONTENT
 ```
@@ -122,7 +130,7 @@ bundle exec jekyll serve
 
 …and go to `https://127.0.0.1:4000/`.
 
----
+- - - 
 
 # [reveal.js](https://lab.hakim.se/reveal-js/)
 
@@ -157,14 +165,14 @@ A framework for easily creating beautiful presentations using HTML.
 Attributes to the slide `<section>` elements are written in the [Front-matter](https://jekyllrb.com/docs/frontmatter/):
 
 ```markdown
----
+- - - 
 layout: slide
 title: Background Transitions
 data:
   transition: linear
   background: 'red'
   background-transition: slide
----
+- - - 
 ```
 
 ## Fragments
@@ -189,10 +197,10 @@ Fragments can be nested.
 For vertical scrolling you need to leave the `title:` blank. All content on vertical slides must be wrapped in HTML `<section>` blocks:
 
 ```html
----
+- - - 
 layout: slide
 title:
----
+- - - 
 
 <section markdown="1">
 # Top Slide
@@ -256,9 +264,9 @@ reveal.js comes with a speaker notes plug-in which can be used to present per-sl
 Notes are defined by appending an `<aside>` element to a slide as seen below. You can add the `markdown="1"` attribute to the aside element if you prefer writing notes using Markdown:
 
 ```html
----
+- - - 
 layout: slide
----
+- - - 
 
 Slide text...
 
@@ -269,7 +277,7 @@ Oh hey, these are some notes. They'll be hidden in your presentation, but you ca
 
 When used locally, this feature requires that reveal.js [runs from a local web server](https://github.com/hakimel/reveal.js#full-setup).
 
----
+- - - 
 
 # Runtime Dependencies for Development
 
@@ -317,7 +325,7 @@ You can add your own extensions using the same syntax. The following properties 
 - **callback**: [optional] Function to execute when the script has loaded
 - **condition**: [optional] Function which must return true for the script to be loaded
 
----
+- - - 
 
 # Licenses
 
@@ -334,3 +342,5 @@ and the color scheme [Solarized Colors](https://github.com/altercation/solarized
 
 [reveal-jekyll](https://github.com/tasmo/reveal-jekyll): [MIT licensed](https://github.com/tasmo/reveal-jekyll/blob/master/LICENSE)  
 Copyright (C) 2021 Thomas Friese, https://tasmo.rocks
+
+-->
