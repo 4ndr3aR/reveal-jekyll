@@ -23,7 +23,7 @@ title: ""
 
 
 
-![swipe-O-hst-050](assets/pics/old-imgs/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-050.png){: .slideimage height="22%" width="22%"}
-![swipe-O-hst-200](assets/pics/old-imgs/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-200.png){: .slideimage height="22%" width="22%"}
-![swipe-O-hst-400](assets/pics/old-imgs/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-400.png){: .slideimage height="22%" width="22%"}
-![swipe-O-hst-400-noise](assets/pics/old-imgs/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-400-noise.png){: .slideimage height="22%" width="22%"}
+![swipe-O-hst-050](img/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-050.png){: .slideimage height="22%" width="22%"}
+![swipe-O-hst-200](img/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-200.png){: .slideimage height="22%" width="22%"}
+![swipe-O-hst-400](img/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-400.png){: .slideimage height="22%" width="22%"}
+![swipe-O-hst-400-noise](img/swipe-O-variable-history-lenght-and-noise/swipe-O-75-datafile-swipe-o-4.csv-hst-400-noise.png){: .slideimage height="22%" width="22%"}

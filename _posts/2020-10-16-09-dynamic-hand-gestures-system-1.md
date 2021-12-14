@@ -21,21 +21,21 @@ title: ""
 
 <!-- | <figcaption class="figcaption" markdown="1"> Grab </figcaption> | <figcaption class="figcaption" markdown="1"> Pinch </figcaption> | -->
 
-![grab](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/grab.gif){: .slideimage height="15%" width="15%"}
-![pinch](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/pinch.gif){: .slideimage height="15%" width="15%"}
-![tap](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/tap.gif){: .slideimage height="15%" width="15%"}
-![swipe-left](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/swipe-left.gif){: .slideimage height="15%" width="15%"}
-![swipe-right](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/swipe-right.gif){: .slideimage height="15%" width="15%"}
-![swipe-O](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/swipe-O.gif){: .slideimage height="15%" width="15%"}
-![swipe-V](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/swipe-V.gif){: .slideimage height="15%" width="15%"}
-![OK](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/OK.gif){: .slideimage height="15%" width="15%"}
-![expand](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/expand.gif){: .slideimage height="15%" width="15%"}
-![three](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/three.gif){: .slideimage height="15%" width="15%"}
+![grab](img/dynamic-hands-gestures-animated-gifs/grab.gif){: .slideimage height="15%" width="15%"}
+![pinch](img/dynamic-hands-gestures-animated-gifs/pinch.gif){: .slideimage height="15%" width="15%"}
+![tap](img/dynamic-hands-gestures-animated-gifs/tap.gif){: .slideimage height="15%" width="15%"}
+![swipe-left](img/dynamic-hands-gestures-animated-gifs/swipe-left.gif){: .slideimage height="15%" width="15%"}
+![swipe-right](img/dynamic-hands-gestures-animated-gifs/swipe-right.gif){: .slideimage height="15%" width="15%"}
+![swipe-O](img/dynamic-hands-gestures-animated-gifs/swipe-O.gif){: .slideimage height="15%" width="15%"}
+![swipe-V](img/dynamic-hands-gestures-animated-gifs/swipe-V.gif){: .slideimage height="15%" width="15%"}
+![OK](img/dynamic-hands-gestures-animated-gifs/OK.gif){: .slideimage height="15%" width="15%"}
+![expand](img/dynamic-hands-gestures-animated-gifs/expand.gif){: .slideimage height="15%" width="15%"}
+![three](img/dynamic-hands-gestures-animated-gifs/three.gif){: .slideimage height="15%" width="15%"}
 
 <!--
-![one](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/one.gif){: .slideimage height="15%" width="15%"}
-![two](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/two.gif){: .slideimage height="15%" width="15%"}
-![four](assets/pics/old-imgs/dynamic-hands-gestures-animated-gifs/four.gif){: .slideimage height="15%" width="15%"}
+![one](img/dynamic-hands-gestures-animated-gifs/one.gif){: .slideimage height="15%" width="15%"}
+![two](img/dynamic-hands-gestures-animated-gifs/two.gif){: .slideimage height="15%" width="15%"}
+![four](img/dynamic-hands-gestures-animated-gifs/four.gif){: .slideimage height="15%" width="15%"}
 -->
 
 

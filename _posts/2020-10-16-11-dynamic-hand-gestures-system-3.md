@@ -18,8 +18,8 @@ title: ""
 
 </div>
 
-![view-based-method-classification-accuracy](assets/pics/old-imgs/3DOR-paper-graphs/viewClassification2.png){: .resultsimage height="30%" width="30%"}
-![view-based-method-false-positives](assets/pics/old-imgs/3DOR-paper-graphs/FPview.png){: .resultsimage height="35.5%" width="35.5%"}
+![view-based-method-classification-accuracy](img/3DOR-paper-graphs/viewClassification2.png){: .resultsimage height="30%" width="30%"}
+![view-based-method-false-positives](img/3DOR-paper-graphs/FPview.png){: .resultsimage height="35.5%" width="35.5%"}
 
 <figcaption class="figcaption" markdown="1">
 

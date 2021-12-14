@@ -14,7 +14,7 @@ title: ""
 
 </div>
 
-![view-based-method-results-table](assets/pics/old-imgs/3DOR-paper-graphs/3dor-view-based-method-results.png){: .resultsimage height="30%" width="30%"}
+![view-based-method-results-table](img/3DOR-paper-graphs/3dor-view-based-method-results.png){: .resultsimage height="30%" width="30%"}
 
 <figcaption class="figcaption" markdown="1">
 

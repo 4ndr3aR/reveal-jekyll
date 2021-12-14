@@ -1,15 +1,102 @@
-<!DOCTYPE html>
-<html class="{% if site.solarized.theme %}{{site.solarized.theme}}{% else %}dark{% endif %}">
-<head>
-	{% include head.html %}
-</head>
-<body>
-	<div class="reveal">
-		<div class="slides">
-			{{ content }}
+<!doctype html>
+<html lang="en">
+
+	<head>
+		{% include head.html %}
+		<!--
+		<meta charset="utf-8">
+		<title>(Semi)-automatic dataset preparation with youtube-dl and YOLOv3</title>
+		<meta name="description" content="Automatic image processing and labeling through ML pipelines.">
+		<meta name="author" content="Andrea Ranieri (template by CartoDB)">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta property="og:title" content="(Semi)-automatic dataset preparation with youtube-dl and YOLOv3"/>
+		<meta property="og:description" content="Automatic image processing and labeling through ML pipelines."/> 
+		<meta property="og:type" content="Visualization"/>
+		-->
+		<!-- meta property="og:url" content="http://rollingstones.vizzuality.com" / -->
+		<!-- meta property="og:image" content="http://cartodb.s3.amazonaws.com/tumblr/posts/blogpostrolling.png"/ -->
+		<!--
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="fonts/fonts.css">
+		<link rel="stylesheet" href="css/style.css">
+	  	<link rel="stylesheet" href="css/cartodb.css" />
+	  	<link id="favicon" rel="shortcut icon" href="assets/favicon.ico" />
+		-->
+	</head>
+
+	<body>
+		<div id="map"></div>
+		<div id="overImg"></div>
+		<div id="header">
+			<!-- <a href="#">YOLOv3 - You Only Look Once</a> -->
+			<a href="#"></a>
 		</div>
-	</div>
-	{% include script.html %}
-</body>
-</html>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<!--
+				<section class="landing">
+					<div class="introText">
+						<h1>3D dynamic hand gestures recognition using the Leap Motion sensor and</h1>
+						<h1 class="hugeNumber"><strong>Convolutional Neural Networks</strong></h1>
+						<h2>Andrea Ranieri - CNR-IMATI</h2>
+					</div>
+					<img src="https://raw.githubusercontent.com/dynamic-hand-gestures-classification/dynamic-hand-gestures-classification/master/pics/sfinge3D-dataset/desktop-captures/desktop-capture-20200512-191206.gif" style="border: 0; background: None; box-shadow: None; text-align: unset; position: inherit; left: 25%; top: 50%; -webkit-filter: drop-shadow(15px 15px 15px #ddd8); filter: drop-shadow(15px 15px 15px #ddd8); border-radius: 2%;"/>
+					<div class="nextButton"><a href="#/1" actual-slide="0"> </a></div>
+				</section>
+				-->
+				<section class="landing">
+					<div class="introText">
+						<h1>DataScienceSeed #13</h1>
+						<h1 class="hugeNumber"><strong>Cracks and Potholes</strong></h1>
+						<h1>Non tutte le reti neurali vengono col buco</h1>
+						<h2>Andrea Ranieri - CNR-IMATI</h2>
+					</div>
+					<img src="img/gallery-3.jpg" style="border: 0; background: None; box-shadow: None; text-align: unset; position: inherit; left: 2%; top: 40%; -webkit-filter: drop-shadow(15px 15px 15px #ddd8); filter: drop-shadow(15px 15px 15px #ddd8); border-radius: 0%; z-index: -1;"/>
+					<div class="nextButton" style="top: -20%"><a href="#/1" actual-slide="0"> </a></div>
+				</section>
+
+
+			{{ content }}
+
+			</div>
+		</div>
+
+		<div id="timeline">
+			<ul></ul>
+		</div>
+		<div id="cursorsThumbnail"></div>
+
+		<!-- a id="wikipedia_logo" href="http://en.wikipedia.org/wiki/Rolling_Stones_concerts" target="_blank"></a -->
+
+		<div id="pointTT">
+			<p class="date">20211216</p>
+			<p class="name">Andrea Ranieri</p>
+		</div>
+
+		<!-- script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script -->
+		<script src="js/cartodb-v3.js"></script>
+		<script src="js/browser.js"></script>
+		<script src="js/lib/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/app.js"></script>
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-115153674-1']);
+			_gaq.push(['_trackPageview']);
+			
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+  </body>
+</html>	
 
