@@ -1,3 +1,136 @@
+/*
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+body {
+  background: black;
+  overflow: hidden;
+  font: 5vw/100vh "Finger Paint";
+  text-align: center;
+  color: transparent;
+  backface-visibility: hidden;
+}
+
+span {
+  display: inline-block;
+  text-shadow: 0 0 0 whitesmoke;
+  animation: smoky 5s 3s both;
+}
+
+span:nth-child(even){
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform:
+      translate3d(15rem,-8rem,0)
+      rotate(-40deg)
+      skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px whitesmoke; }
+  to {
+    transform:
+      translate3d(18rem,-8rem,0)
+      rotate(-40deg) 
+      skewX(-70deg)
+      scale(2);
+     text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@for $item from 1 through 21 {
+  span:nth-of-type(#{$item}){ 
+    animation-delay: #{(3 + ($item/10))}s; 
+  }
+} 
+
+*/
+
+
+.pic_with_text {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    overflow: hidden;
+    pointer-events: auto;
+    box-shadow: None;
+    border-radius: 2%;
+    -webkit-filter: drop-shadow(0.5vw 0.5vw 0.5vw #ddd8);
+    filter: drop-shadow(0.5vw 0.5vw 0.5vw #ddd8);
+}
+
+.text_anim_over_pic {
+    /*position: absolute;*/
+    position: relative;
+    right: -30%;
+    width: 40.5%;
+    height: 0%;
+    top: -15%;
+    text-align: center;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.7);
+    /* transition: height 5.7s ease-out; */
+    -webkit-transition: height 0.7s ease-out;
+    -moz-transition: height 0.7s ease-out;
+    -o-transition: height 0.7s ease-out;
+    -ms-transition: height 0.7s ease-out;
+     transition: height 0.7s ease-out, opacity 0.7s ease, top 0.8s ease;
+    pointer-events: auto;
+    -webkit-filter: drop-shadow(0.5vw 0.5vw 0.5vw #13DAEC);
+    filter: drop-shadow(0.5vw 0.5vw 0.5vw #13DAEC);
+}
+
+.text_anim_over_pic_content {
+    top: 100px;
+    vertical-align: bottom;
+    color: #e8103f;
+    -webkit-filter: drop-shadow(0.5vw 0.5vw 0.5vw #e8103f);
+    filter: drop-shadow(0.5vw 0.5vw 0.5vw #e8103f);
+}
+
+.pic_with_text:hover > .text_anim_over_pic {
+    height: 50%;
+    top: -59%;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  pointer-events: auto;
+}
+
+.pic_with_text:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+
+
 
 .pleaseletmeclickonthislink
 {

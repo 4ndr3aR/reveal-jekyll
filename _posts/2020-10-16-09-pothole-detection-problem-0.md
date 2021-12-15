@@ -6,6 +6,23 @@ title: ""
 # The pothole detection problem
 ##### **state of the art**
 
+<!--
+<div class="pic_with_text">
+<img src="img/pothole-imgs/pothole-classif.png" />
+<div class="overlay">
+<p>Classification</p>
+</div>
+</div>
+
+
+<div class="pic_with_text">
+<img src="img/pothole-imgs/pothole-object-detection.png" />
+<div class="text_anim_over_pic">
+<p>Obj. Detection</p>
+</div>
+</div>
+-->
+
 <div markdown="1" style="font-size:2vw;ul{font-size:10vw};">
 
 - Early attempts of pothole detection in the pre-Deep Learning era
@@ -30,9 +47,9 @@ title: ""
 
 {:refdef: style="margin-left:35%;margin-top:-2%"}
 <div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-classif.png){: .slideimage height="25%" width="25%"}
+![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="25%" width="25%"}
 <div markdown="1" class="text_anim_over_pic">
-<p>Classification</p>
+<p class="text_anim_over_pic_content">Classification</p>
 </div>
 </div>
 ![classif](img/pothole-imgs/pothole-object-detection.png){: .slideimage height="25%" width="25%"}
