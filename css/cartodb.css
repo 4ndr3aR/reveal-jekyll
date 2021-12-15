@@ -60,14 +60,16 @@ span:nth-child(even){
 */
 
 
+
+
 .pic_with_text {
     position: relative;
-    /*
     width: 40%;
     height: 40%;
-    */
+    /*
     max-height: 75%;
     max-width: 75%;
+    */
     overflow: hidden;
     pointer-events: auto;
     box-shadow: None;
@@ -79,12 +81,12 @@ span:nth-child(even){
 .text_anim_over_pic {
     position: relative;
     right: -29.5%;
-    /*
     width: 41%;
     height: 59%;
-    */
+    /*
     max-height: 75%;
     max-width: 75%;
+    */
     top: -68%;
     text-align: center;
     opacity: 0;
@@ -171,7 +173,6 @@ span:nth-child(even){
 .pic_with_text:hover .overlay {
   opacity: 1;
 }
-
 
 
 
