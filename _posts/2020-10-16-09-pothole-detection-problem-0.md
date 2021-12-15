@@ -52,15 +52,22 @@ title: ""
 [5] We Learn Better Road Pothole Detection: from Attention Aggregation to Adversarial Domain Adaptation, Fan et al., 2020<br>
 </div>
 
-{:refdef: style="margin-left:35%;margin-top:-2%"}
-<div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="25%" width="25%"}
+{:refdef: style="margin-left:5%;margin-top:-2%"}
+<div markdown="1" class="pic_with_text" style="float:left;left:25%;opacity:0;">
+![classif](img/transparent-100x100.png){: .pic_with_text height="200vw"}
+<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Transparent</p></div></div>
+<div markdown="1" class="pic_with_text" style="float:left;left:25%;opacity:0;">
+![classif](img/transparent-100x100.png){: .pic_with_text height="200vw"}
+<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Transparent</p></div></div>
+
+<div markdown="1" class="pic_with_text" style="float:left;left:25%;">
+![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="250vw"}
 <div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Classification</p></div></div>
-<div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-object-detection.png){: .pic_with_text height="25%" width="25%"}
+<div markdown="1" class="pic_with_text" style="float:left;left:15%;">
+![objdet](img/pothole-imgs/pothole-object-detection.png){: .pic_with_text height="250vw"}
 <div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Obj. Detection</p></div></div>
-<div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-semantic-segmentation.png){: .pic_with_text height="25%" width="25%"}
+<div markdown="1" class="pic_with_text" style="float:left;left:15%;">
+![segmentation](img/pothole-imgs/pothole-semantic-segmentation.png){: .pic_with_text height="250vw"}
 <div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Sem. Segmentation</p></div></div>
 {:refdef}
 
