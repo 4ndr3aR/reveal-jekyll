@@ -77,17 +77,20 @@ span:nth-child(even){
     position: relative;
     right: -30%;
     width: 40.5%;
-    height: 0%;
-    top: -15%;
+    height: 50%;
+    top: -60%;
     text-align: center;
     opacity: 0;
     background: rgba(255, 255, 255, 0.7);
     /* transition: height 5.7s ease-out; */
+    /*
     -webkit-transition: height 0.7s ease-out;
     -moz-transition: height 0.7s ease-out;
     -o-transition: height 0.7s ease-out;
     -ms-transition: height 0.7s ease-out;
-     transition: height 0.7s ease-out, opacity 0.7s ease, top 0.8s ease;
+    */
+    /* transition: height 0.7s ease-out, opacity 0.7s ease, top 0.8s ease; */
+     transition: opacity 0.7s ease;
     pointer-events: auto;
     -webkit-filter: drop-shadow(0.5vw 0.5vw 0.5vw #13DAEC);
     filter: drop-shadow(0.5vw 0.5vw 0.5vw #13DAEC);
@@ -102,8 +105,10 @@ span:nth-child(even){
 }
 
 .pic_with_text:hover > .text_anim_over_pic {
+    /*
     height: 50%;
     top: -59%;
+    */
     opacity: 1;
     pointer-events: auto;
 }
