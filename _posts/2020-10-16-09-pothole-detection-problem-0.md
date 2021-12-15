@@ -46,14 +46,26 @@ title: ""
 </div>
 
 {:refdef: style="margin-left:35%;margin-top:-2%"}
+
+<table>
+ <tr>
+  <td style="width:500px; height:300px; background-color:red;text-align:center; vertical-align:middle">
 <div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="25%" width="25%"}
-<div markdown="1" class="text_anim_over_pic">
-<p class="text_anim_over_pic_content">Classification</p>
-</div>
-</div>
-![classif](img/pothole-imgs/pothole-object-detection.png){: .slideimage height="25%" width="25%"}
-![classif](img/pothole-imgs/pothole-semantic-segmentation.png){: .slideimage height="25%" width="25%"}
+![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="200%" width="200%"}
+<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Classification</p></div></div>
+  </td>
+  <td>
+<div markdown="1" class="pic_with_text">
+![classif](img/pothole-imgs/pothole-object-detection.png){: .slideimage height="200%" width="200%"}
+<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Obj. Detection</p></div></div>
+  </td>
+  <td>
+<div markdown="1" class="pic_with_text">
+![classif](img/pothole-imgs/pothole-semantic-segmentation.png){: .slideimage height="200%" width="200%"}
+<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Sem. Segmentation</p></div></div>
+  </td>
+ </tr>
+</table> 
 {:refdef}
 
 <!--
