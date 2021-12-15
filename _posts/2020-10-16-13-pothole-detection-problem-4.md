@@ -3,7 +3,7 @@ layout: slide
 title: ""
 ---
 
-# 3D Dynamic Hand Gestures Recognition
+# The pothole detection problem
 ##### **results #2**
 
 <div markdown="1" style="font-size:2vw">
