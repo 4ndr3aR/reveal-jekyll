@@ -132,7 +132,8 @@ section.landing h2{
 
 .reveal h5 strong{
 	font-family: 'Lato';
-	color: #AA55AA	!important;
+	/*color: #AA55AA	!important;*/
+	color: #e8103f	!important;
 	font-weight: normal;
 	/* font-size: 50%; */
 	text-shadow: 5px 5px #000000;
