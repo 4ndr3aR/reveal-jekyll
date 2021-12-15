@@ -6,30 +6,6 @@ title: ""
 # The pothole detection problem
 ##### **state of the art**
 
-<!--
-<div class="pic_with_text">
-<img src="img/pothole-imgs/pothole-classif.png" />
-<div class="overlay">
-<p>Classification</p>
-</div>
-</div>
-
-
-<div class="pic_with_text">
-<img src="img/pothole-imgs/pothole-object-detection.png" />
-<div class="text_anim_over_pic">
-<p>Obj. Detection</p>
-</div>
-</div>
--->
-
-<!--
-![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="25%" width="25%"}<p>asdf</p>
-![classif](img/pothole-imgs/pothole-object-detection.png){: .pic_with_text height="25%" width="25%"}<p>qer</p>
--->
-
-
-
 <div markdown="1" style="font-size:2vw;ul{font-size:10vw};">
 
 - Early attempts of pothole detection in the pre-Deep Learning era
@@ -70,45 +46,4 @@ title: ""
 ![segmentation](img/pothole-imgs/pothole-semantic-segmentation.png){: .pic_with_text height="250vw"}
 <div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Sem. Segmentation</p></div></div>
 {:refdef}
-
-
-
-<!--
-{:refdef: style="margin-left:35%;margin-top:-2%"}
-
-<table>
- <tr>
-  <td style="width:500px; height:300px; background-color:red;text-align:center; vertical-align:middle">
-<div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-classif.png){: .pic_with_text height="25%" width="25%"}
-<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Classification</p></div></div>
-  </td>
-  <td>
-<div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-object-detection.png){: .pic_with_text height="25%" width="25%"}
-<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Obj. Detection</p></div></div>
-  </td>
-  <td>
-<div markdown="1" class="pic_with_text">
-![classif](img/pothole-imgs/pothole-semantic-segmentation.png){: .pic_with_text height="25%" width="25%"}
-<div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Sem. Segmentation</p></div></div>
-  </td>
- </tr>
-</table> 
-{:refdef}
--->
-
-<!--
-
-- Facebook [Horizon](img/Welcome-to-Facebook-Horizon-Is8eXZco46Q.webm){: .pleaseletmeclickonthislink}
-
-https://support.leapmotion.com/hc/en-us/articles/360004493377-What-happened-to-gesture-support-How-can-I-make-a-gesture-
-
-- Google [Mediapipe](https://www.youtube.com/watch?v=j4GcRIAPgJw){: .pleaseletmeclickonthislink}
-- Leap Motion [Cat Explorer](https://www.youtube.com/watch?v=9KCA44GZRQg){: .pleaseletmeclickonthislink} and [Orion](https://www.youtube.com/watch?v=rnlCGw-0R8g){: .pleaseletmeclickonthislink}
-- Automotive [(Sony DepthSense)](https://www.sony-depthsensing.com/DepthSense/Markets/Automotive){: .pleaseletmeclickonthislink} or [BMW 7 Series - Gesture Control](https://www.youtube.com/watch?v=szyrQfgAaWo){: .pleaseletmeclickonthislink}
-- Facebook [Horizon](https://www.youtube.com/watch?v=Is8eXZco46Q){: .pleaseletmeclickonthislink}
-- Facebook [Horizon](https://www.youtube.com/watch?v=o67td5HFghI){: .pleaseletmeclickonthislink}
-
--->
 

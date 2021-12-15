@@ -8,19 +8,20 @@ title: ""
 
 <div markdown="1" style="font-size:2vw">
 
-- Dynamic Hand Gestures Recognition can be split into two subproblems:
-	- acquisition of the skeletons of the hands (hard)
-		- through hardware like gloves or Leap Motion
-		- through software with other NN models like Google MediaPipe
-		- (we're using the Leap Motion sensor now because it's convenient, but our approach is versatile)
-	- actual understanding of the dynamic gesture using "its whole history" (also hard)
-		- training "traditional" tabular data classifiers (SVMs, feed-forward NN, LSTMs)
-		- training CNN classifiers to leverage 2D image structure -> powerful (learned) features extractors + transfer learning
+- At present, a problem of great collective interest
+	- for ordinary citizens and car owners
+	- for municipalities
+	- it also fits into the broader context of autonomous driving research
+- CNR-IMATI carries out this research as part of a project funded by MISE
+	- project name: <span style="color:#e8103f"><b>5G Genova</b></span>
+	- 6 partners: CNR, Vodafone, AMT, Municipality of Genova, Leonardo S.p.a., START 4.0
+	- start date: Oct '20
+	- 1st year is over, still 1 year to go
 
 </div>
 
-<!-- | <figcaption class="figcaption" markdown="1"> Grab </figcaption> | <figcaption class="figcaption" markdown="1"> Pinch </figcaption> | -->
 
+<!--
 ![grab](img/dynamic-hands-gestures-animated-gifs/grab.gif){: .slideimage height="15%" width="15%"}
 ![pinch](img/dynamic-hands-gestures-animated-gifs/pinch.gif){: .slideimage height="15%" width="15%"}
 ![tap](img/dynamic-hands-gestures-animated-gifs/tap.gif){: .slideimage height="15%" width="15%"}
@@ -31,6 +32,7 @@ title: ""
 ![OK](img/dynamic-hands-gestures-animated-gifs/OK.gif){: .slideimage height="15%" width="15%"}
 ![expand](img/dynamic-hands-gestures-animated-gifs/expand.gif){: .slideimage height="15%" width="15%"}
 ![three](img/dynamic-hands-gestures-animated-gifs/three.gif){: .slideimage height="15%" width="15%"}
+-->
 
 <!--
 ![one](img/dynamic-hands-gestures-animated-gifs/one.gif){: .slideimage height="15%" width="15%"}
