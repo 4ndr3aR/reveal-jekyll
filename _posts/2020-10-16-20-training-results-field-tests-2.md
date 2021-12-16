@@ -4,21 +4,20 @@ title: ""
 ---
 
 # The pothole detection problem
-##### **training results - field tests**
+##### **training results - field tests #2**
 
 <div markdown="1" style="font-size:2vw;ul{font-size:10vw};">
 
-- The model is already capable of segmenting images captured by a vehicle moving at low speed
-- The higher the speed, the more blurry the images will be
-	- the less the model will be able to "see" in the image
-- Solution: high FPS camera
+- Field tests have recently started but are already giving excellent results
+	- the model is already capable of segmenting images from videos "in the wild"
 
+<br>
 
 
 
 
 <video height="50%" controls autoplay muted loop>
-  <source src="http://deeplearning.ge.imati.cnr.it/genova-5G/video/VID_20211031_165432.mp4-inference.mp4" type="video/mp4" />
+  <source src="http://deeplearning.ge.imati.cnr.it/genova-5G/video/VID_20211031_162912.mp4-inference.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
