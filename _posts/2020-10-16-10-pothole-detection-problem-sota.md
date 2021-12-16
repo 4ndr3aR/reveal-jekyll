@@ -15,7 +15,7 @@ title: ""
 - The deep learning era boosted research in this area
 	- Classification \[[3](https://link.springer.com/chapter/10.1007%2F978-3-030-00220-6_72){: .pleaseletmeclickonthislink8px}\]
 	- Object detection \[[4](https://ieeexplore.ieee.org/document/9112424){: .pleaseletmeclickonthislink8px}\]
-	- Semantic segmentation \[[5](https://arxiv.org/abs/2008.06840){: .pleaseletmeclickonthislink8px}\]
+	- <span style="color:#e8103f"><b>Semantic segmentation</b></span> \[[5](https://arxiv.org/abs/2008.06840){: .pleaseletmeclickonthislink8px}\]
 </div>
 
 
@@ -43,7 +43,7 @@ title: ""
 ![objdet](img/pothole-imgs/pothole-object-detection.png){: .pic_with_text height="250vw"}
 <div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Obj. Detection</p></div></div>
 <div markdown="1" class="pic_with_text" style="float:left;left:15%;">
-![segmentation](img/pothole-imgs/pothole-semantic-segmentation.png){: .pic_with_text height="250vw"}
+![segmentation](img/pothole-imgs/pothole-semantic-segmentation-example.png){: .pic_with_text height="250vw"}
 <div markdown="1" class="text_anim_over_pic"><p class="text_anim_over_pic_content">Sem. Segmentation</p></div></div>
 {:refdef}
 
